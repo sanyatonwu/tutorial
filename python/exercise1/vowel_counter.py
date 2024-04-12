@@ -13,7 +13,7 @@ def num_consonants(text):
     num1 = 0
     for letter in text:
            num1 += text.lower().count(c)
-    return num
+    return num1
     
 text = str(input("Enter a sentence: "))
 print("Number of vowels", num_vowels(text))

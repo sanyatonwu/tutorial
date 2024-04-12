@@ -12,7 +12,7 @@ def num_consonants(text):
     consonants= "bcdfghjklmnpqrstvwxz"
     num = 0
     for letter in text:
-           num += text.lower().count(letter)
+           num1 += text.lower().count(c)
     return num
     
 text = str(input("Enter a sentence: "))

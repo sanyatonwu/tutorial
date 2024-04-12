@@ -9,6 +9,7 @@ def num_vowels(text):
     return num
 
 def num_consonants(text):
+    """Return the number of consonants in string."""
     consonants= "bcdfghjklmnpqrstvwxz"
     num1 = 0
     for c in consonants:

@@ -12,7 +12,6 @@ def num_consonants(text):
     consonants= "bcdfghjklmnpqrstvwxz"
     num = 0
     for letter in text:
-        if letter not in vowels:
            num += text.lower().count(letter)
     return num
     

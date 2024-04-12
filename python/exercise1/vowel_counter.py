@@ -18,7 +18,6 @@ def num_consonants(text):
 text = str(input("Enter a sentence: "))
 print("Number of vowels", num_vowels(text))
 print("Number of consonants", num_consonants(text))
-print("Number of vowels", num_vowels(text))
-print("Number of consonants", num_consonants(text))
+
 
 

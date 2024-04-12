@@ -9,7 +9,7 @@ def num_vowels(text):
     return num
 
 def num_consonants(text):
-    vowels = "aeiouy"
+    consonants= "bcdfghjklmnpqrstvwxz"
     num = 0
     for letter in text:
         if letter not in vowels:

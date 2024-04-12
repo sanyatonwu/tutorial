@@ -11,7 +11,7 @@ def num_vowels(text):
 def num_consonants(text):
     consonants= "bcdfghjklmnpqrstvwxz"
     num1 = 0
-    for letter in text:
+    for c in consonants:
            num1 += text.lower().count(c)
     return num1
     
